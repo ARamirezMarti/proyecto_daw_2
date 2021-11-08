@@ -1,0 +1,9 @@
+/vendor
+/test
+composer.json
+composer.lock
+TODO
+/.vscode
+Dockerfile-service1
+Dockerfile-service2
+docker-compose.yml

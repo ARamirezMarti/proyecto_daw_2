@@ -1,0 +1,29 @@
+TODO
+
+[x ]Crear carrito view
+El boton confirmar tiene que estar en carritoview
+donde se pueda añadir la descriocin
+
+[ x] Acabar la funcion creary confirmar de pedidos
+
+[x ] mensaje se hara con fetch y se creara un icono que apareza la cantidad e mensajes pendientes
+
+[x ] crear Gestion de usuarios.
+
+[x ] existe un problema con el require de la db, verificar que todo funciona bien, porque,
+dependiendo que haga la aplicaccion da un fallo de la ruta del require del db. No se si colocar
+la constante db_url o el path 'require_once '../Database/db.php';'
+
+[x] Mejorar CSS
+[x] En usuario añadir la password vieja tambien
+[x] Añadir algo en la pantalla de inicio sobretodo para NO ADMINS
+[] Comentar codigo //ACABAR
+[] Todo de la App.
+[x] Poder quitar cosas del carrito
+[] Implementar Categorias en las ? tablas?
+[x] Añadir el € en el coste realizar pedido
+[--] usuario puede ver los pedidos que el ha realizado y su estado.EN EL INICIO? PUNTO MAS ARRIBA
+[x] añadir search bar en carrito
+[x] asegurarse que precio total es correcto
+[x] css botones de detalle pedido
+[] crear categorias?
