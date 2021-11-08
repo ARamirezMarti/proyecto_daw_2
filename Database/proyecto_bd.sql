@@ -143,7 +143,7 @@ INSERT INTO `Categoria` (`Cat_ID`, `Cat_Nombre`) VALUES (NULL, 'Material de ofic
 
 /* Añadir Productos */
 
-INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '1', '4', 'Archivador palanca EXACOMPTA', 'El archivador de palanca Prem\'Touch está equipado de una mecánica más fuerte, es más resistente, más ergonómico gracias a su nuevo pulsador, tiene refuerzos en los cantos, etiqueta soldada en el lomo, rado y ollao.', '4.20');INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '1', '4', 'Archivador palanca EXACOMPTA', 'El archivador de palanca Prem\'Touch está equipado de una mecánica más fuerte, es más resistente, más ergonómico gracias a su nuevo pulsador, tiene refuerzos en los cantos, etiqueta soldada en el lomo, rado y ollao.', '4.20');
+INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '1', '4', 'Archivador palanca Exacompta', 'El archivador de palanca Prem\'Touch está equipado de una mecánica más fuerte, es más resistente, más ergonómico gracias a su nuevo pulsador, tiene refuerzos en los cantos, etiqueta soldada en el lomo, rado y ollao.', '4.20');INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '1', '4', 'Archivador palanca EXACOMPTA', 'El archivador de palanca Prem\'Touch está equipado de una mecánica más fuerte, es más resistente, más ergonómico gracias a su nuevo pulsador, tiene refuerzos en los cantos, etiqueta soldada en el lomo, rado y ollao.', '4.20');
 INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '1', '3', 'Caja de 5 paquetes 500 hojas de papel Premium', 'Excelente calidad, ideal para presentaciones e impresiones profesionales y apto para todos los tipos de impresoras', '89.99');
 INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '1', '3', 'Paquete 500 hojas de papel Premium', 'Excelente calidad, ideal para presentaciones e impresiones profesionales y apto para todos los tipos de impresoras', '19.99');
 INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '1', '3', 'Paquete 500 hojas de papel Lyreco Premium - A3', 'Excelente calidad, ideal para presentaciones e impresiones profesionales y apto para todos los tipos de impresoras', '4.20');
@@ -158,8 +158,8 @@ INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_De
 
 
 
-INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '2', '1', 'SILLA PIQUERAS Y CRESPO ALBACETE CONFIDENTE', 'Sillón confidente ergonómico con asiento y respaldo tapizados en color, brazos cromados regulables en altura y patín de tubo oval cromado.', '325.85');
-INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '2', '1', 'SILLA PIQUERAS Y CRESPO BOGARRA ', 'Silla de oficina con respaldo y asiento ergonómico acolchado, para una mayor comodidad del usuario. ', '225.99');
+INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '2', '1', 'Silla piqueras y crespo Albacete confidente', 'Sillón confidente ergonómico con asiento y respaldo tapizados en color, brazos cromados regulables en altura y patín de tubo oval cromado.', '325.85');
+INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '2', '1', 'Silla piqueras y crespo Bogarra ', 'Silla de oficina con respaldo y asiento ergonómico acolchado, para una mayor comodidad del usuario. ', '225.99');
 INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '2', '1', 'Silla con mecanismo de contacto', 'Silla de oficina de contacto permanente, fabricada con base de poliuretano y tapizada en tela ignífuga.', '120');
 INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '2', '1', 'Cajón archivador Bisley', 'Archivador de 2 cajones que permite clasificar carpetas tamaño folio. Guías telescópicas resistentes, su calidad permite una apertura y cierre suave.', '182.00');
 INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '2', '1', 'Torre de almacenamiento Cep', 'Material ligero y resistente a los golpes', '58.90');
@@ -178,7 +178,7 @@ INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_De
 INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '3', '2', 'Auriculares Kensington - USC-C  ', 'Los auriculares Hi-Fi USB-C con micrófono, que se han diseñado teniendo en cuenta la claridad del sonido y la compatibilidad del dispositivo, es una combinación económica y de alta calidad de auriculares y micrófono perfecta para el aprendizaje a distancia.','8.90');
 INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '3', '2', 'Alfombrilla antibacterias para ratón Fellowes', 'Su superficie de poliéster permite una mayor tracción del ratón.Tratamiento especial Microban que protege contra los gérmenes.','34.90');
 INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '3', '2', 'Reposamuñecas mini Fellowes', 'Fabricado en gel flexible transparente de color azul translúcido.Base antideslizante adaptable a cualquier superficie.','18.90');
-INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '3', '2', 'ALFOM ANTIFAT SIT&STAND', 'Alivia la presión en las muñecas.Mejora el deslizamiento y el control del ratón','21.90');
+INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '3', '2', 'Alfombrilla Antifatiga sit&stand', 'Alivia la presión en las muñecas.Mejora el deslizamiento y el control del ratón','21.90');
 
 
 
@@ -200,10 +200,6 @@ INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_De
 INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '4', '4', 'Caja de 5000 grapas', 'Caja de 5000 grapas 26/6.','9.99');
 
 
-
-
-
-
 INSERT INTO `Departamento` (`Dep_ID`, `Dep_Nombre`, `Dep_Telefono`) VALUES ('001', 'Produccion', '676898901');
 INSERT INTO `Departamento` (`Dep_ID`, `Dep_Nombre`, `Dep_Telefono`) VALUES ('002', 'Calidad', '676898902');
 INSERT INTO `Departamento` (`Dep_ID`, `Dep_Nombre`, `Dep_Telefono`) VALUES ('003', 'IT', '676898903');
@@ -211,6 +207,11 @@ INSERT INTO `Departamento` (`Dep_ID`, `Dep_Nombre`, `Dep_Telefono`) VALUES ('004
 INSERT INTO `Departamento` (`Dep_ID`, `Dep_Nombre`, `Dep_Telefono`) VALUES ('005', 'RRHH', '676898905');
 INSERT INTO `Departamento` (`Dep_ID`, `Dep_Nombre`, `Dep_Telefono`) VALUES ('006', 'Compras', '676898906');
 
+/* 
+   Password Admin: admin
+   Password Carla : clopez
+   Password Miguel Angel : magomez 
+ */
 INSERT INTO `Empleado` (`Empleado_ID`, `Dep_ID`, `Emp_Nombre`, `Emp_Apellido`, `Emp_Password`, `Emp_Telf`, `Is_Emp_Respon`) VALUES ('4000', '6', 'Admin', 'Admin', '$2y$12$34mTgMoS8QitZ1zvdAQqDuiHMaJb1UvaW2VoBEYLUJXk5gUnLJZbW', NULL, '1');
-/* TODO:CAMBIAR PASSWORD EMPLEADO1 */
-INSERT INTO `Empleado` (`Empleado_ID`, `Dep_ID`, `Emp_Nombre`, `Emp_Apellido`, `Emp_Password`, `Emp_Telf`, `Is_Emp_Respon`) VALUES ('4001', '1', 'Empleado1', 'Empleado1', '$2y$12$34mTgMoS8QitZ1zvdAQqDuiHMaJb1UvaW2VoBEYLUJXk5gUnLJZbW', NULL, '0');
+INSERT INTO `Empleado` (`Empleado_ID`, `Dep_ID`, `Emp_Nombre`, `Emp_Apellido`, `Emp_Password`, `Emp_Telf`, `Is_Emp_Respon`) VALUES ('4002', '6', 'Carla', 'Lopez Diaz', '$2a$12$ACtNyY.vWOTTE/gjsdUQOutGTYw7qRbOogemSkDdUEiZLdvBPUl22', NULL, '1');
+INSERT INTO `Empleado` (`Empleado_ID`, `Dep_ID`, `Emp_Nombre`, `Emp_Apellido`, `Emp_Password`, `Emp_Telf`, `Is_Emp_Respon`) VALUES ('4001', '1', 'Miguel Angel', 'Gomez Cortez', '$2a$12$Evj711dVVLp1Sx4DeRhCGOLgDRexjgxcSZvFaBwKlKTZoGEPsbIZq', NULL, '0');

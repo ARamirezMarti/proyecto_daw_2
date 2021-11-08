@@ -27,7 +27,7 @@ $detalles = $pedido->getFullPedidoDetalles($id_detalle);
         ?>
             <div class='Carrito'>
 
-               <h2><?=$det['Prod_Nombre']?></h2>
+               <h3><?=$det['Prod_Nombre']?></h3>
                <hr>
                <h4> Precio <?=$det['Prod_Precio']?> €</h4>
                <h4> Cantidad <?=$det['Ped_Cantidad']?> </h4>
@@ -38,7 +38,7 @@ $detalles = $pedido->getFullPedidoDetalles($id_detalle);
         <?php endif ?>
 
         <div class="separator"></div>
-        <p><b>Realizacion del pedido:</b> <br><?=$fecha_realizacion ?></p>
+        <p><b>Fecha del pedido:</b> <br><?=$fecha_realizacion ?></p>
         <p><b>Pedido realizado por el empleado:</b>  <br><?=$empleado ?></p>
         <p><b>Motivos del pedido: <br></b><?=$motivos ?></p>
         <p><b>Precio total del pedido:</b><br> <?=$precio_total ?> €</p>
