@@ -1,4 +1,3 @@
-/* CREATE DATABASE ge */;
 CREATE DATABASE gec CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 use gec;
@@ -103,6 +102,14 @@ CREATE TABLE Contiene(
 )ENGINE=InnoDB;
 
 
+ALTER TABLE Departamento CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE Empleado CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE Pedidos CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE Mensaje CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE Prov_Direccion CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE Proveedor CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE Productos CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER TABLE Contiene CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 /* Añadimos proveedores */
 INSERT INTO `Prov_Direccion` (`Direccion_ID`, `Dir_Calle`, `Dir_Pais`, `Dir_Cod_Postal`, `Dir_Provincia`, `Dir_Ciudad`) 
