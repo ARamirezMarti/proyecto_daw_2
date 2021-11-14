@@ -45,6 +45,7 @@ window.onload = function () {
         let respuesta = await fetch('/Controllers/request.php?peticion=getmensajes')
         let all_mensajes_json = await respuesta.json();
 
+
         mensajesSinVer(all_mensajes_json)
         if (mensajes_sinleer > 0) {
             setInterval(() => {

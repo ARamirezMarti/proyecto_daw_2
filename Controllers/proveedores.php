@@ -117,7 +117,6 @@ if (isset($_GET['accion']) || isset($_POST['accion'])) {
         <h2 class="titulo">Lista de proveedores</h2>
 
         <div class="create_pedidos_form" id="create_form">
-            <hr>
 
             <table>
                 <thead>
