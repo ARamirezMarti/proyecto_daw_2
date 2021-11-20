@@ -75,7 +75,7 @@ if(isset($_POST['accion']) && $_POST['accion']=='login' ){
         <form id="login_form" action="login.php" method="post">
             <input name="accion" type="hidden" value="login">
             <label for="trabajador_id" required>Numero trabajador</label>
-            <input type="text" name="trabajador_id" >
+            <input type="text" name="trabajador_id" required>
             <label for="password">Contraseña</label>
             <input type="password" name="password" required >
             <input class="button submit" type="submit" value="Log In">
