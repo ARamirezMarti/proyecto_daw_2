@@ -7,11 +7,11 @@
             <input type="hidden" name="accion" value="CrearDep">
 
             <label for="dep_id">Numero departamento</label>
-            <input type="number" name="dep_id"  required>
+            <input type="number" name="dep_id" min="1" value="0" max="10000" required>
             <label for="dep_nombre"> Nombre del departamento</label>
             <input type="text" maxlength="100" name="dep_nombre" required>
             <label for="dep_nombre"> Telefono</label>
-            <input type="text" maxlength="10" name="dep_telf">
+            <input type="text" maxlength="9" minlength="9" name="dep_telf">
 
             <input  type="submit" class="button submit" value="Crear">
 

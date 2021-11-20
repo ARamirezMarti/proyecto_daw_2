@@ -1,0 +1,16 @@
+version: '3'
+
+services:  
+  web:
+    build:
+          context: .
+          dockerfile: Dockerfile-service2
+    container_name: GEC
+    networks:
+      - raspisql_default
+    ports:
+      - "8081:80"
+networks:
+  raspisql_default:
+    external: true 
+  

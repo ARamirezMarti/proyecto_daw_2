@@ -11,11 +11,11 @@
         <form action="proveedores.php" method="post">
             <input type="hidden" name="accion" value="crearProveedor">
             <label for="prov_nombre">Nombre</label>
-            <input type="text" name="prov_nombre"  required>
+            <input type="text" name="prov_nombre" maxlength="75"  required>
             <label for="cif"> No CIF</label>
-            <input type="text" maxlength="10" name="prov_cif" required>
+            <input type="text" maxlength="9" minlength="9" name="prov_cif" required>
             <label for="prov_telf"> Telefono</label>
-            <input type="number" maxlength="10" name="prov_telf" required>
+            <input type="number" maxlength="9" minlength="9" name="prov_telf" required>
             <label for="prov_web">Pagina web</label>
             <input type="text" name="prov_web" >
             <label for="prov_calle">Calle</label>

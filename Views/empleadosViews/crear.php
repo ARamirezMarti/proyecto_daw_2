@@ -20,19 +20,19 @@ $departamentos= $departamento->getDepartamentos();
             <input type="hidden" name="accion" value="crearEmp">
 
             <label for="emp_id"> Numero de empleado </label>
-            <input type="number"  name="emp_id" required>
+            <input type="number"  name="emp_id" min="1" required>
 
             <label for="emp_nombre"> Nombre </label>
-            <input type="text"  name="emp_nombre" required>
+            <input type="text"  name="emp_nombre" maxlength="25" required>
 
             <label for="emp_apellidos"> Apellidos </label>
-            <input type="text"  name="emp_apellidos" required>
+            <input type="text"  name="emp_apellidos" maxlength="75" required>
             
             <label for="emp_password"> Password </label>
-            <input type="password"  name="emp_pass" required>
+            <input type="password"  name="emp_pass" minlength="8" required>
 
             <label for="emp_telefono">Telefono</label>
-            <input type="number" name="emp_telefono"  >
+            <input type="number" name="emp_telefono" maxlength="9" minlength="9" >
             <?php  if($departamentos):?>
                 <!-- Mostramos un select con todas las categorias. -->
                 <select name="departamento" >

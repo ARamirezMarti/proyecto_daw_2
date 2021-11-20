@@ -23,6 +23,10 @@ require_once '../Models/productoModel.php';
     </form>
 </div>
 
+<?php if (isset($_SESSION['Mensaje'])) : ?>
+
+<b><?= $_SESSION['Mensaje'] ?></b>
+<?php endif ?>
 
 <?php
 
@@ -51,7 +55,7 @@ if (isset($_GET['accion']) || isset($_POST['accion'])) {
             $prod_borrado = $producto->deshabilitarProducto($id);
 
             if ($prod_borrado) {
-                $_SESSION['Mensaje'] = "<p class='mensaje'>Producto deshabilitar satisfactoriamente</p>";
+                $_SESSION['Mensaje'] = "<p class='mensaje'>Producto deshabilitado satisfactoriamente</p>";
                 header('Location: productos.php?accion=listar');
             } else {
                 $_SESSION['Mensaje'] = "<p class='mensaje'>No se ha podido deshabilitar  el producto</p>";
@@ -87,11 +91,11 @@ if (isset($_GET['accion']) || isset($_POST['accion'])) {
         
             
 
-            if ($dep_creado) {
-                $_SESSION['Mensaje'] = "<p class='mensaje'>Departamento creado satisfactoriamente</p>";
+            if ($producto_creado) {
+                $_SESSION['Mensaje'] = "<p class='mensaje'>Producto creado satisfactoriamente</p>";
                 header("Location: productos.php?accion=listar");
             } else {
-                $_SESSION['Mensaje'] = "<p class='mensaje'>No se ha podido crear el departamento</p>";
+                $_SESSION['Mensaje'] = "<p class='mensaje'>No se ha podido crear el producto    </p>";
                 header("Location: productos.php?accion=listar");
             }
 

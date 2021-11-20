@@ -46,7 +46,7 @@ if (isset($_GET['accion']) || isset($_POST['accion'])) {
             break;
         case 'CrearDep':
             $departamento= new Departamento();
-
+           
             $departamento->setDep_id($_POST['dep_id']);
             $departamento->setNombre($_POST['dep_nombre']);
             $telefono = $_POST['dep_telf'] ? $_POST['dep_telf'] : 'NULL';

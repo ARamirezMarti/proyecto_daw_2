@@ -26,13 +26,13 @@ $all_Categorias= $categorias->getAllCategorias();
         <form action="productos.php" method="post">
             <input type="hidden" name="accion" value="crearProd">
             <label for="prod_nombre">Nombre del producto</label>
-            <input type="text" name="prod_nombre"  required>
+            <input type="text" name="prod_nombre" maxlength="75"  required>
 
             <label for="prod_desc"> Descripcion</label>
-            <textarea type="text" name="prod_desc" required></textarea>
+            <textarea type="text" name="prod_desc" rows="10" cols="35" maxlength="255" required></textarea>
             
             <label for="prod_precio"> Precio</label>
-            <input type="number" step=".01"  name="prod_precio">
+            <input type="number" step=".01" min="0" placeholder="0,0" name="prod_precio" required>
 
             
             <label for="prod_proveedor"> Proveedor </label>

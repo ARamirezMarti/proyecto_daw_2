@@ -13,7 +13,7 @@ CREATE TABLE Departamento (
 
 
 CREATE TABLE Empleado (
-    Empleado_ID int NOT NULL,
+    Empleado_ID int NOT NULL UNIQUE,
     Dep_ID int ,
     Emp_Nombre VARCHAR(50) NOT NULL,
     Emp_Apellido VARCHAR(75) NOT NULL,

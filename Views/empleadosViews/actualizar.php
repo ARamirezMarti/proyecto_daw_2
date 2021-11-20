@@ -30,7 +30,7 @@ $departamentos =$departamento->getDepartamentos();
             <input type="hidden" value="<?=$empleado_actual->getPassword() ?>" name="current_pass"  >
 
             <label for="emp_id"> Numero de empleado </label>
-            <input type="number" value="<?=$empleado_actual->getEmpleado_id() ?>" disabled >
+            <input type="number" value="<?=$empleado_actual->getEmpleado_id() ?>" disabled  >
 
             <label for="emp_nombre"> Nombre </label>
             <input type="text"  name="emp_nombre" value=<?=$empleado_actual->getNombre() ?> required>
