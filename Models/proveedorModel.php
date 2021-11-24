@@ -1,10 +1,6 @@
 <?php
 require_once DB_URL;
-/* TODO:
- 
-    - No se si es necesario añadir la direccion y o todos los datos de direccion 
- 
- */
+
 class Proveedor
 {
 

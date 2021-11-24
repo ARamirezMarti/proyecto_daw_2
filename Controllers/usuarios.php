@@ -53,7 +53,6 @@ if (isset($_GET['accion']) || isset($_POST['accion'])) {
             $empleado->setNombre($_POST['emp_nombre']);
             $empleado->setApellidos($_POST['emp_apellidos']);
 
-            /* TODO Esto no funciona bien, acabar */
             if($_POST['emp_pass_nueva'] != ''){
                 $hashed_password = password_hash($_POST['emp_pass_nueva'], PASSWORD_BCRYPT, ['cost' => '12']);
                 $empleado->setPassword($hashed_password);

@@ -54,10 +54,10 @@ if (isset($_GET['accion']) || isset($_POST['accion'])) {
             $prov_habilitado = $proveedor->habilitarProveedor($id);
 
             if ($prov_habilitado) {
-                $_SESSION['Mensaje'] = "<p class='mensaje'>Producto habilitado satisfactoriamente</p>";
+                $_SESSION['Mensaje'] = "<p class='mensaje'>Proveedor habilitado satisfactoriamente</p>";
                 header('Location: proveedores.php?accion=listar');
             } else {
-                $_SESSION['Mensaje'] = "<p class='mensaje'>No se ha podido habilitar  el producto</p>";
+                $_SESSION['Mensaje'] = "<p class='mensaje'>No se ha podido habilitar  el Proveedor</p>";
                 header('Location: proveedores.php?accion=listar');
             }
             break;

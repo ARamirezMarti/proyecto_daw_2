@@ -63,7 +63,7 @@ session_start();
                 <li class="menu_option">
                 <div class="menu_img_frame">
                         <img   src="/assets/icons/user.svg" alt="Casa" >
-                </div> <!-- TODO: ENVIAR A modificacion de usuario -->
+                </div> 
                 <a href="/Controllers/usuarios.php?accion=configuracion">Gestionar mi cuenta</a> 
             </li>
 

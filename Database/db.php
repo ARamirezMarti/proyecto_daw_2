@@ -10,7 +10,7 @@ class database
          /* IMPORTANTE: 
         * Descomentar la linia inferior si queremos acceder a la base de datos local
         */
-        $conn = mysqli_connect('127.0.0.1', 'root', 'focamonje1', 'gec') or die("No se puede conectar con la base de datos"); 
+        $conn = mysqli_connect('127.0.0.1', 'root', 'focamonje1', 'gec') or die("No se puede conectar con la base de datos. Asegurese de que los parametros de conexion estan correctos"); 
       
         /* IMPORTANTE: 
         * Descomentar la linia inferior si queremos acceder a la base de datos creada por docker-compose

@@ -43,7 +43,7 @@ $detalles = $pedido->getFullPedidoDetalles($id_detalle);
         <p><b>Motivos del pedido: <br></b><?=$motivos ?></p>
         <p><b>Precio total del pedido:</b><br> <?=$precio_total ?> €</p>
 
-        <div id="botones_conf_rech" ><!-- TODO FALTA CSS EN LOS BOTONES SUBMIT -->
+        <div id="botones_conf_rech" >
 
         <?php if($estado == 0 ): ?> 
      
