@@ -215,3 +215,4 @@ INSERT INTO `Departamento` (`Dep_ID`, `Dep_Nombre`, `Dep_Telefono`) VALUES ('006
 INSERT INTO `Empleado` (`Empleado_ID`, `Dep_ID`, `Emp_Nombre`, `Emp_Apellido`, `Emp_Password`, `Emp_Telf`, `Is_Emp_Respon`) VALUES ('4000', '6', 'Admin', 'Admin', '$2y$12$34mTgMoS8QitZ1zvdAQqDuiHMaJb1UvaW2VoBEYLUJXk5gUnLJZbW', NULL, '1');
 INSERT INTO `Empleado` (`Empleado_ID`, `Dep_ID`, `Emp_Nombre`, `Emp_Apellido`, `Emp_Password`, `Emp_Telf`, `Is_Emp_Respon`) VALUES ('4002', '6', 'Carla', 'Lopez Diaz', '$2a$12$ACtNyY.vWOTTE/gjsdUQOutGTYw7qRbOogemSkDdUEiZLdvBPUl22', NULL, '1');
 INSERT INTO `Empleado` (`Empleado_ID`, `Dep_ID`, `Emp_Nombre`, `Emp_Apellido`, `Emp_Password`, `Emp_Telf`, `Is_Emp_Respon`) VALUES ('4001', '1', 'Miguel Angel', 'Gomez Cortez', '$2a$12$Evj711dVVLp1Sx4DeRhCGOLgDRexjgxcSZvFaBwKlKTZoGEPsbIZq', NULL, '0');
+

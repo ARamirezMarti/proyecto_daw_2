@@ -14,12 +14,13 @@ donde se pueda añadir la descriocin
 dependiendo que haga la aplicaccion da un fallo de la ruta del require del db. No se si colocar
 la constante db_url o el path 'require_once '../Database/db.php';'
 
+[] Cambiar la pass de la base de datos
 
 [ ] REVISAR TODOS LOS MENSAJES SESSION
 [x] Mejorar CSS
 [x] En usuario añadir la password vieja tambien
 [x] Añadir algo en la pantalla de inicio sobretodo para NO ADMINS
-[] Comentar codigo //ACABAR
+[x] Comentar codigo //ACABAR
 [] Todo de la App.
 [x] Poder quitar cosas del carrito
 [] Implementar Categorias en las ? tablas?
