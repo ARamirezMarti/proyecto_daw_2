@@ -6,7 +6,6 @@ class database
 
     public static function getConnection()
     {
-        //TODO: CAMBIAR LA PASS DE MYSQL
          /* IMPORTANTE: 
         * Descomentar la linia inferior si queremos acceder a la base de datos local
         */
@@ -15,7 +14,7 @@ class database
         /* IMPORTANTE: 
         * Descomentar la linia inferior si queremos acceder a la base de datos creada por docker-compose
         */
-        //$conn=mysqli_connect('database','root','pass','gec') or die("No se puede conectar con la  base de datos");
+        //$conn=mysqli_connect('database','root','pass','gec') or die("No se puede conectar con la base de datos. Asegurese de que los parametros de conexion estan correctos");
 
 
         mysqli_set_charset($conn, 'utf8_general_ci');

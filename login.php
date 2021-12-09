@@ -64,7 +64,7 @@ if(isset($_POST['accion']) && $_POST['accion']=='login' ){
 </head>
 <body>
     <div id="login_container">
-        <h2 id="login_title">Login</h2>
+        <h2 id="login_title">Log in</h2>
         <p><?php
             if(isset($_SESSION["login_error_status"])){
                 $error = $_SESSION["login_error_status"];
@@ -74,7 +74,7 @@ if(isset($_POST['accion']) && $_POST['accion']=='login' ){
         </p>
         <form id="login_form" action="login.php" method="post">
             <input name="accion" type="hidden" value="login">
-            <label for="trabajador_id" required>Numero trabajador</label>
+            <label for="trabajador_id" required>Número trabajador</label>
             <input type="text" name="trabajador_id" required>
             <label for="password">Contraseña</label>
             <input type="password" name="password" required >

@@ -17,7 +17,7 @@
         <span class="cajon_numero" id="cajon_confirmados">09</span>
     </div>
     <div class="cajon_resumen">
-        <h4>pedidos denegados </h4>
+        <h4>Pedidos denegados </h4>
         <span class="cajon_numero" id="cajon_rechazados">09</span>
     </div>
 </div>

@@ -11,7 +11,7 @@ require_once '../Models/departamentoModel.php';
 <div id="contendor_resumen">
 
     <a class="menuButton submit" href="departamentos.php?accion=listar">Lista de departamentos </a>
-    <a class="menuButton submit " href="departamentos.php?accion=crear">crear departamento </a>
+    <a class="menuButton submit " href="departamentos.php?accion=crear">Crear departamento </a>
    
 </div>
 <?php
@@ -84,9 +84,9 @@ if (isset($_GET['accion']) || isset($_POST['accion'])) {
     <table>
         <thead>
             <tr>
-                <th>Num. Departamento</th>
+                <th>Núm. Departamento</th>
                 <th>Nombre de departamento</th>
-                <th>Telefono de contacto</th>
+                <th>Teléfono de contacto</th>
                 <th></th>
             </tr>
         </thead>

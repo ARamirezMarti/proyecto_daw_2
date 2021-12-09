@@ -23,10 +23,7 @@ require_once '../Models/productoModel.php';
     </form>
 </div>
 
-<?php if (isset($_SESSION['Mensaje'])) : ?>
 
-<b><?= $_SESSION['Mensaje'] ?></b>
-<?php endif ?>
 
 <?php
 
@@ -127,7 +124,7 @@ if (isset($_GET['accion']) || isset($_POST['accion'])) {
             <thead>
                 <tr>
                     <th>Nombre del producto</th>
-                    <th>Descripcion</th>
+                    <th>Descripción</th>
                     <th>Precio</th>
                     <th></th>
                 </tr>

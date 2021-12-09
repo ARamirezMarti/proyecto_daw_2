@@ -28,7 +28,7 @@ $all_Categorias= $categorias->getAllCategorias();
             <label for="prod_nombre">Nombre del producto</label>
             <input type="text" name="prod_nombre" maxlength="75"  required>
 
-            <label for="prod_desc"> Descripcion</label>
+            <label for="prod_desc"> Descripción</label>
             <textarea type="text" name="prod_desc" rows="10" cols="35" maxlength="255" required></textarea>
             
             <label for="prod_precio"> Precio</label>
@@ -48,7 +48,7 @@ $all_Categorias= $categorias->getAllCategorias();
             
             <?php endif ?>
 
-            <label for="prod_proveedor"> Categoria </label>
+            <label for="prod_proveedor"> Categoría </label>
 
             <?php  if($all_Categorias):?>
                 <select name="categoria" >

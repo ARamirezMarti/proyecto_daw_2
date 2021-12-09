@@ -31,7 +31,7 @@ $detalles = $pedido->getFullPedidoDetalles($id_detalle);
                <hr>
                <h4> Precio <?=$det['Prod_Precio']?> €</h4>
                <h4> Cantidad <?=$det['Ped_Cantidad']?> </h4>
-               <p class="apartado_descripcion">Precio total de este producto <?=$preciototal_porProducto?> </p>
+               <p class="apartado_descripcion">Precio total de este producto <?=$preciototal_porProducto?>€</p>
             </div>
 
             <?php endwhile ?>

@@ -200,7 +200,7 @@ INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_De
 INSERT INTO `Productos` (`Prod_ID`, `Prov_ID`, `Cat_ID`, `Prod_Nombre`, `Prod_Descripcion`, `Prod_Precio`) VALUES (NULL, '4', '4', 'Caja de 5000 grapas', 'Caja de 5000 grapas 26/6.','9.99');
 
 
-INSERT INTO `Departamento` (`Dep_ID`, `Dep_Nombre`, `Dep_Telefono`) VALUES ('001', 'Produccion', '676898901');
+INSERT INTO `Departamento` (`Dep_ID`, `Dep_Nombre`, `Dep_Telefono`) VALUES ('001', 'Producción', '676898901');
 INSERT INTO `Departamento` (`Dep_ID`, `Dep_Nombre`, `Dep_Telefono`) VALUES ('002', 'Calidad', '676898902');
 INSERT INTO `Departamento` (`Dep_ID`, `Dep_Nombre`, `Dep_Telefono`) VALUES ('003', 'IT', '676898903');
 INSERT INTO `Departamento` (`Dep_ID`, `Dep_Nombre`, `Dep_Telefono`) VALUES ('004', 'Mantenimiento', '676898904');

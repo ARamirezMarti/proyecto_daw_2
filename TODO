@@ -16,7 +16,7 @@ la constante db_url o el path 'require_once '../Database/db.php';'
 
 [] Cambiar la pass de la base de datos
 
-[ x REVISAR TODOS LOS MENSAJES SESSION
+[ ]x REVISAR TODOS LOS MENSAJES SESSION
 [x] Mejorar CSS
 [x] En usuario añadir la password vieja tambien
 [x] Añadir algo en la pantalla de inicio sobretodo para NO ADMINS

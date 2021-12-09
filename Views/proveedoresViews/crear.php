@@ -14,15 +14,15 @@
             <input type="text" name="prov_nombre" maxlength="75"  required>
             <label for="cif"> No CIF</label>
             <input type="text" maxlength="9" minlength="9" name="prov_cif" required>
-            <label for="prov_telf"> Telefono</label>
+            <label for="prov_telf"> Teléfono</label>
             <input type="number" maxlength="9" minlength="9" name="prov_telf" required>
-            <label for="prov_web">Pagina web</label>
+            <label for="prov_web">Página web</label>
             <input type="text" name="prov_web" >
             <label for="prov_calle">Calle</label>
             <input type="text" name="prov_calle" required>
-            <label for="pais"> Pais</label>
+            <label for="pais"> País</label>
             <input type="text" name="prov_pais" required>
-            <label for="prov_postal">Codigo Postal</label>
+            <label for="prov_postal">Código Postal</label>
             <input type="number" name="prov_postal" required>
             <label for="prov_provincia">Provincia</label>
             <input type="text" name="prov_provincia" required>

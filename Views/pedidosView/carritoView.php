@@ -53,7 +53,7 @@ $precio_total = 0
         ?>
         <div id="precio_total">
 
-            <h2>Costo total del pedido </h2>
+            <h2>Coste total del pedido </h2>
             <p><b><?= $precio_total ?> €</b> </p>
 
         </div>
@@ -74,7 +74,7 @@ $precio_total = 0
         </div>
 
         <?php else:?>
-         <h3 style="text-align: center; ">Actualmente el carrito esta vacio</h3>
+         <h3 style="text-align: center; ">Actualmente el carrito esta vacío</h3>
         <?php endif?>
 
     </div>

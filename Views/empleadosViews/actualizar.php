@@ -20,7 +20,6 @@ $departamentos =$departamento->getDepartamentos();
 
 <div class="table_frame">
 
-
     <div class="create_form" >
         <h2>Actualizar mis datos</h2>
         <hr>
@@ -33,10 +32,11 @@ $departamentos =$departamento->getDepartamentos();
             <input type="number" value="<?=$empleado_actual->getEmpleado_id() ?>" disabled  >
 
             <label for="emp_nombre"> Nombre </label>
-            <input type="text"  name="emp_nombre" value=<?=$empleado_actual->getNombre() ?> required>
+            <input type="text"  name="emp_nombre" required value="<?=$empleado_actual->getNombre() ?>" >
 
             <label for="emp_apellidos"> Apellidos </label>
-            <input type="text"  name="emp_apellidos" value=<?=$empleado_actual->getApellidos() ?> required>
+         
+            <input type="text"  name="emp_apellidos" required  value="<?=$empleado_actual->getApellidos() ?>" >
 
             <label for="emp_apellidos"> Departamento</label>
 

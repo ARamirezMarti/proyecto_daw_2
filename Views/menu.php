@@ -33,7 +33,7 @@ session_start();
                 <div class="menu_img_frame">
                         <img   src="/assets/icons/user.svg" alt="Casa" >
                 </div>
-                <a href="/Controllers/usuarios.php?accion=listar">Gestion de usuarios</a> 
+                <a href="/Controllers/usuarios.php?accion=listar">Gestión de usuarios</a> 
             </li>
 
             <li class="menu_option">

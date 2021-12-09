@@ -43,7 +43,7 @@
         <thead>
         <tr>
             <th>Nombre del producto</th>
-            <th>Descripcion</th>
+            <th>Descripción</th>
             <th>Precio</th>
             <th>Pedir</th>
             
@@ -101,7 +101,7 @@ $todos_productos = $producto->getAllEnabledProductos();
         <thead>
         <tr>
             <th>Nombre del producto</th>
-            <th>Descripcion</th>
+            <th>Descripción</th>
             <th>Precio</th>
             <th>Pedir</th>
             

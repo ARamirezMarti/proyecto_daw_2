@@ -167,7 +167,7 @@ if (isset($_GET['accion']) || isset($_POST['accion'])) {
                         <th>Nombre</th>
                         <th>Apellidos</th>
                         <th>Departamento</th>
-                        <th>Telefono</th>
+                        <th>Teléfono</th>
                         <th>Nivel de acceso</th>
                         <th>Opciones</th>
                     </tr>

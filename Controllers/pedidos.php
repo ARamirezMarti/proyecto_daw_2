@@ -153,15 +153,15 @@ function mostrarLista()
         <h2 class="titulo">Todos los pedidos</h2>
         <?php if (isset($_SESSION['Mensaje_pedidos'])) : ?>
 
-            <b><?= $_SESSION['Mensaje_pedidos'] ?></b>
+            
         <?php endif ?>
         <table>
             <thead>
                 <tr>
-                    <th>Numero de Pedido</th>
+                    <th>Número de Pedido</th>
                     <th>Realizado por:</th>
                     <th>Estado</th>
-                    <th>Descripcion</th>
+                    <th>Descripción</th>
                     <th>Fecha </th>
                     <th>Precio total</th>
                     <th></th>

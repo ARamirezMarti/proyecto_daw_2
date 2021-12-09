@@ -134,7 +134,7 @@ class Empleado
         $this->setEmpleado_id($user->Empleado_ID);
         $this->setNombre($user->Emp_Nombre);
         $this->setDep_id($user->Dep_ID);
-        $this->setApellidos($user->Emp_Apellidos);
+        $this->setApellidos($user->Emp_Apellido);
         $this->setTelf($user->Emp_Telf);
         $this->setIs_respon($user->Is_Emp_Respon);
 

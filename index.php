@@ -37,6 +37,9 @@ if (!isset($_SESSION['usuario_name'])) {
            <?php if (isset($_SESSION['Mensaje'])) : ?>
 
                 <b><?= $_SESSION['Mensaje'] ?></b>
+                <?php
+                     $_SESSION['Mensaje']='';
+                ?>
             <?php endif ?>
 
         <!-- Modal de mensajes -->

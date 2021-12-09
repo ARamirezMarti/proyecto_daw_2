@@ -123,10 +123,10 @@ if (isset($_GET['accion']) || isset($_POST['accion'])) {
                     <tr>
                         <th>Nombre del proveedor</th>
                         <th>CIF</th>
-                        <th>Telefono</th>
-                        <th>Pagina Web</th>
-                        <th>Direccion</th>
-                        <th>Codigo Postal</th>
+                        <th>Teléfono</th>
+                        <th>Página Web</th>
+                        <th>Dirección</th>
+                        <th>Código Postal</th>
                         <th>Ciudad</th>
                         <th>Provincia</th>
                         <th></th>
